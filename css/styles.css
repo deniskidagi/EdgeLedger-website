@@ -126,3 +126,12 @@ img {
     color: #fff;
     margin-bottom: 15px;
 }
+
+.column img:hover {
+    opacity: 0.6;
+}
+
+/* blogs section */
+.blogs {
+    padding: 5px 0 30px;
+}
