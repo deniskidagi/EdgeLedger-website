@@ -71,8 +71,8 @@
     flex: 1;
 }
 
-.flex-columns .columns .clumn-1,
-.flex-columns .columns .clumn-2{
+.flex-columns .columns .column-1,
+.flex-columns .columns .column-2{
     height: 100%;
 }
 
@@ -100,7 +100,7 @@
     margin: 20px 0;
 }
 
-.flex-columns .row-reverse {
+.row-reverse {
     display: flex;
     flex-direction: row-reverse;
 }
