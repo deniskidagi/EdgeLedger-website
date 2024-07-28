@@ -45,7 +45,7 @@ img {
     color: #fff;
     opacity: 0.8;
     width: 100%;
-    height: 70px;
+    height: 50px;
     position: fixed;
     top: 0px;
     padding: 0 30px;
@@ -108,6 +108,11 @@ img {
 }
 .hero * {
     z-index: 2;
+}
+
+.hero.blog {
+    background-image: url('../images/home/blog.jpg') no-repeat center center/cover;
+    height: 30vh;
 }
 
 .icons {
@@ -174,6 +179,29 @@ img {
     margin-top: 20px;
 }
 
+/* post */
+
+.post{
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
 /* footer */
 .footer {
     display: flex;
